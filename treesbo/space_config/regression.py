@@ -23,6 +23,7 @@ lgb_space = {
 # Define the search space [XGB]
 xgb_space = {
     'booster': 'gbtree',
+    'tree_method':'gpu_hist',
     'random_state': 2019,
     'eval_metric': 'rmse',
     'n_jobs': -1,
